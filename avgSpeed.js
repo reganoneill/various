@@ -6,10 +6,15 @@
 const s = 15;
 var x = [45.6, 74.4, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0];
 
-x.reduce(function(acc, cur){
-  var highestAvg = acc;
-  if(cur > highestAvg){
-    highestAvg = cur;
-  }
-  return Math.floor(highestAvg);
-});
+function gps(s, x){
+  if(x.length <= 1) return 0;
+  x.reduce(function(acc, cur){
+    var highestAvg = acc;
+    if(cur > highestAvg){
+      highestAvg = cur;
+    }
+    console.log(Math.floor(highestAvg));
+    return Math.floor(highestAvg);
+  });
+
+};

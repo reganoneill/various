@@ -1,0 +1,8 @@
+jack  french fries  4  10
+jack  pretzel  2  20
+jack  shampoo  10  1
+jack  carrots  1  30
+jill  celery  2  14
+jill  tea  5  3
+jill  kombucha  6  24
+jill  white beans  3  11

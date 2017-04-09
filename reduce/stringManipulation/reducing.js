@@ -5,7 +5,8 @@ const fs = require('fs');
 var readFile = fs.readFileSync('files.txt', 'utf-8')
   .trim()
   .split('\n')
-  .map( line => line.split('  '))
+  // .map( line => line.split('  '))
+  .map( line => line.split('\t'))
   .reduce((acc, curr) => {
     acc[curr[0]] = acc[curr[0]] || [];
     acc[curr[0]].push({

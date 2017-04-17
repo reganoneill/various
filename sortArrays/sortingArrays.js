@@ -34,3 +34,5 @@ const sortEm = function(first, second, callback){
 };
 
 sortEm(oneArr, twoArr);
+
+// TODO - think about using a while loop to continue operations as long as the length of the new array isn't as long as the sum the length of the two original arrays.
